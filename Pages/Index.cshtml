@@ -4,7 +4,70 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Menu for næste uge</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dag</th>
+      <th>Varm Ret</th>
+      <th>Kold Ret</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mandag</td>
+      <td>Karrykylling</td>
+      <td>Salat</td>
+    </tr>
+    <tr>
+      <td>Tirsdag</td>
+      <td>Pasta Bolognese</td>
+      <td>Rugbrødsmadder</td>
+    </tr>
+    <tr>
+      <td>Onsdag</td>
+      <td>Fiskefilet med kartofler</td>
+      <td>Yoghurtsuppe</td>
+    </tr>
+    <tr>
+      <td>Torsdag</td>
+      <td>Kyllingefrikassé</td>
+      <td>Pasta salat</td>
+    </tr>
+    <tr>
+      <td>Fredag</td>
+      <td>Grillet laks</td>
+      <td>Koldskål</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
